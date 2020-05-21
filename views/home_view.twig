@@ -1,0 +1,35 @@
+{% extends '/includes/layout.twig' %}
+
+
+{% block head %}
+<html>
+<head>
+<title> {{ page|capitalize }} - page d'accueil</title>
+</head>
+</html>
+{% endblock %}
+
+
+
+{% block content %}
+
+
+Bienvenue, veuillez vous inscrire ou vous connecter pour acceder au contenu des articles du blog. <br></br>
+
+
+	<!-- formulaire de connexion-->
+<form action = "home" method= "POST">
+<p>Identifiant ou adresse email : </p>
+		<input type="text" name="both"> 
+<p>Mot de passe : </p>
+		<input type="password" name="password">
+<p></p>
+		<input type="submit" name="envoyer">
+	</form>
+<p></p>
+
+
+	<!-- formulaire d'inscription-->
+
+
+{% endblock %}
