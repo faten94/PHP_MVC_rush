@@ -4,7 +4,7 @@ Blog website
 
 ## Installation
 
-Create a repository and open git clone this one.
+Create a repository and git clone this one.
 
 ```bash
 git clone git@github.com:faten94/PHP_MVC_rush.git
