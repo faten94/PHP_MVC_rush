@@ -12,4 +12,4 @@ git clone git@github.com:faten94/PHP_MVC_rush.git
 
 ## Usage
 
-Open your navigator and write localhost in the URL, then click on the right folder to access this blog website.
+Open your navigator and write localhost in the URL, then click on the folder you just cloned to access this blog website.
